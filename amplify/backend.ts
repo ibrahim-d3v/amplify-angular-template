@@ -11,7 +11,7 @@ backend.addOutput({
   auth: {
     oauth: {
       identity_providers: ["GOOGLE"],
-      domain: "https://remotecoderstest.auth.eu-north-1.amazoncognito.com",
+      domain: "https://203e71ae67dfbdc9256c.auth.eu-north-1.amazoncognito.com",
       scopes: ["email", "profile", "openid"],
       redirect_sign_in_uri: ["http://localhost:4200/", "https://main.d5zu1rqvpr1ol.amplifyapp.com"],
       redirect_sign_out_uri: ["http://localhost:4200/", "https://main.d5zu1rqvpr1ol.amplifyapp.com"],
